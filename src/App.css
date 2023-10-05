@@ -1,0 +1,113 @@
+.topnav {
+    background-color: #81d5d3d8;
+    overflow: hidden;
+  }
+
+.topnav a{
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.right {
+    float: right;
+  }
+
+.DLMP{
+    float: left;
+}
+
+.right:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .headerimage{
+      max-width: 100%;
+      text-align: center;
+      position: relative;
+  }
+  .container{
+    text-align: center;
+  }
+  
+  .Responsive{
+      max-width: 100%;
+      align-content: center;
+  }
+  table {
+    table-layout: fixed ;
+    width: 100% ;
+  }
+  td {
+    width: 25% ;
+  }
+  
+  .button{
+    text-align: center;
+  }
+
+  .row
+  {
+      display: flex;
+  }
+  .column{
+      flex: 33.33%;
+      padding: 5px;
+  }
+
+  .email-registration-form {
+    text-align: center; 
+  }
+  
+  .email-registration-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+  }
+  
+
+  .email-registration-text {
+    margin: 10px 0; 
+  }
+  .email-registration-content {
+    background-color: #ccc; 
+    padding: 20px; 
+    text-align: center; 
+    width: 100%;
+    box-sizing: border-box;  
+  }
+
+  footer {
+  
+    text-align: center;
+    background-color: rgb(57, 141, 237);
+  }
+  
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .footer-links .child {
+    flex-grow: 1;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
